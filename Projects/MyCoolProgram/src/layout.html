@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    
+    <h1><div class="header"></div>My Cool Program</h1>
+    
+    <p> This is my really cool meme text editor changes the formats of whatever is entered. Pretty crazy right? </p>
+    
+    <div class="tab" align="center" >
+        <button class="tablinks" onclick="openText(event, 'upperCase'); hideDiv();">uPpEr CaSe</button>
+        <button class="tablinks" onclick="openText(event, 'spaces'); hideDiv()">S p a c e s</button>
+        <button class="tablinks" onclick="openText(event,   'upperSpace'); hideDiv()">u P p E r S p A c E</button>
+        <button class="tablinks" onclick="openText(event, 'backwards'); hideDiv()" >sdrawkcaB</button>
+        <button class="tablinks" onclick="openText(event, 'speeve'); hideDiv()" >(Sbeeve)</button>
+    </div>
+    
+    <div id="upperCase" class="tabcontent" align="center">
+        <form> 
+            <input type="text" value="Wow cool stuff!" id="textBoxOne"/><br>
+            <button type = "button" onclick="upperLetters(); showDiv()"> 
+            Submit</button>
+        </form>
+    </div>
+    
+    <div id="spaces" class="tabcontent" align="center">
+        <form> 
+            <input type="text" value="Very neat." id="textBoxTwo"/><br>
+            <button type = "button" onclick="spaceLetters(); showDiv()"> Submit </button>
+        </form>
+    </div>
+        
+    <div id="upperSpace" class="tabcontent" align="center">  
+        <form> 
+            <input type="text" value="I have a Headache." id="textBoxThree"/><br>
+            <button type = "button"  onclick="upperSpaceLetters(); showDiv()"> Submit </button>
+        </form>
+    </div>
+        
+    <div id="backwards" class="tabcontent" align="center">
+        <form> 
+            <input type="text" value="I can't read this anymore!" id="textBoxFour"/><br>
+            <button type = "button" value = "Submit" onclick="backwardsLetters(); showDiv()">  Submit </button>
+        </form>
+    </div>
+        
+    <div id="speeve" class="tabcontent" align="center">
+        <form> 
+            <input type="text" value="She Believed..." id="textBoxFive"/><br>
+            <button type = "button" onclick="speeveLetters(); showDiv()"> Submit </button>
+        </form>
+    </div>
+    
+    <div id = "afterSub"> hello </div> 
+    <div> <button id = "copyButton" onclick="copyText()">Copy text</button> </div>
+
+    <script src = "js/letterChange.js">
+    </script>
+    <div class="footer"></div>
+        
+</body>
+</html>
+

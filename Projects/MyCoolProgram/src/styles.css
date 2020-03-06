@@ -1,0 +1,144 @@
+
+h1
+{
+    text-align: center;
+	color: antiquewhite;
+    text-shadow: 2px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+    margin-bottom: 1px;
+}
+
+
+
+
+#copyButton
+{
+    
+    margin-top: 1%;
+    padding: 5px;
+    visibility: hidden;
+    box-sizing: border-box;
+    background-color: #8CDC8A;
+    border: none;
+    position: absolute;
+    top: 570px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    
+}
+
+
+#afterSub 
+{
+    visibility: hidden;
+    padding: 20px;
+    color: antiquewhite;
+    font-size: 30px;
+    background-color: darkcyan;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+
+p
+{
+    text-align: center;
+    color: antiquewhite;
+    font-size: 22px;
+    text-shadow: 2px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+    margin-top: 1px;
+    
+    
+}
+body
+{
+    background-image:url('pictures/cup90.jpg');
+    background-size:100%;
+
+}
+  
+input[type=text]
+{
+    margin-top: 5%;
+    padding: 12px;
+    box-sizing: border-box;
+    border: none;
+    background-color: #3CBC8D;
+    color: white;
+}
+
+button[type=button]
+{
+    margin-top: 1%;
+    padding: 5px;
+    box-sizing: border-box;
+    border: none;
+    background-color: #8CDC8A;
+    color: white;
+}
+
+.header
+{  
+    opacity: .90;
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: -1;
+    height: 106px;
+    width: 100%;
+    margin-bottom: -90px;
+    shape-outside: rectangle();
+    clip-path: rectangle();
+    background: linear-gradient(to right , #FDB171, #FD987D);
+}
+
+.footer
+{  
+    opacity: .90;
+    position: absolute;
+    bottom:0;
+    left:0;
+    height: 100px;
+    width: 100%;
+    margin-bottom: 0;
+    shape-outside: rectangle();
+    clip-path: rectangle();
+    background: linear-gradient(to left , #FDB171, #FD987D);
+}
+
+.tab {
+    
+    overflow:visible;
+}
+
+/* Style the buttons that are used to open the tab content*/
+.tab button {
+    position: 
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #acc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+
+}
+
