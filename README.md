@@ -1,2 +1,2 @@
-# nicfornicola
-I am a Computer Science Major at Abilene Christian University, I have been coding in c++ and have uploading some of my projects.
+# Nic Fornicola
+I am a Computer Science Major at Abilene Christian University, I have been coding in c++ and java, javascript html and css here are some of my projects.
